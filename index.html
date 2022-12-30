@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<main>
+		<div class="grid-container">
+			<div class="item1">
+
+			</div>
+			<div class="item2">
+				<h1>Quam Tristique Condimentum</h1>
+				<div class="paragraph_1">
+					<p>
+						Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
+						lacinia odio sem nec elit. Cum sociis natoque penatibus et magnis dis
+						parturient montes, nascetur ridiculus mus.
+						<span style="color: #ff0000">Curabitur blandit</span> tempus
+						porttitor. Integer posuere erat a ante venenatis dapibus posuere velit
+						aliquet. Vestibulum id ligula porta felis euismod semper.
+					</p>
+				</div>
+			</div>
+			<div class="item3">
+				<div class="calculator">
+					<div class="upper-form">
+						<form>
+							<h3>Compensation</h3>
+							<h3>Calculator</h3>
+							<label style="font-size: 16px;"for="income-input">Average income</label><br><br>
+
+							<div class="input-container">
+								<input type="number" id="income-input" min="1" step="any">
+								<span class="unit">€</span><br>
+							</div>
+
+							<label style="font-size: 16px;"for="days-input">Days on sick-leave</label><br><br>
+
+							<div class="input-container">
+								<input type="number" id="days-input">
+								<span class="container-2">days</span><br>
+							</div>
+
+							<input class="tuberculosis" type="checkbox" id="tuberculosis-input" value="1">
+  							<label for="tuberculosis"> I have tuberculosis</label>
+
+							<button type="button" id="calculate" onclick="calculateChange()">Calculate</button><br><br>
+						</form>
+					</div>
+
+					<div class="border">
+						<div class="calculated-1">
+							<span style="font-size: 16px;">
+								The employer <br>
+								compensates <br>
+							</span>
+							<span style="font-size: 16px; font-weight: bold;">
+
+								<span id="days-employer">0</span> days<br><br>
+
+							</span>
+							<span style="font-size: 20px; font-weight: bold;">
+
+								<span id="compensation-employer">0</span> €<br>
+
+							</span>
+							<span style="font-size: 14px;color:gray">
+								Daily allowance<br>
+								<span id="daily-allowance-1">0,00€</span>
+							</span>
+						</div>
+						<div class="calculated-2">
+							<span style="font-size: 16px;">
+								Health insurance <br>
+								compensates <br>
+							</span>
+							<span style="font-size: 16px; font-weight: bold;">
+								<span id="days-insurance">0</span> days<br><br>
+							</span>
+							<span style="font-size: 20px; font-weight: bold;">
+								<span id="compensation-insurance">0</span> €<br>
+							</span>
+							<span style="font-size: 14px;color:gray">
+								Daily allowance<br>
+								<span id="daily-allowance-2">0,00€</span>
+							</span>
+						</div>
+					</div>
+					<div style="text-align: center;font-size: 17px;">
+						<span style="font-size: 17px;">
+							<br>
+							Compensation total for <span id="days-together">0</span> days (net) 
+						</span>
+						<span style="font-size: 17px;">
+							<h3>
+								<span id="compensation-total">0,00€</span>
+							</h3>
+						</span>
+					</div>
+                </div>
+			</div>
+			<div class="item4">
+				<h2>Fringilla Euismod</h2>
+				<h2>Adipiscing lpsum</h2>
+				<div class="paragraph_1">
+					<p>
+						Cum sociis natoque penatibus et magnis
+						dis parturient montes, nascetur ridiculus
+						mus. Maecenas faucibus mollis interdum.
+						Aenean lacinia bibendum nulla sed.
+					</p>
+				</div>
+			</div>
+			<div class="item5">
+				<img src="books.png" alt="books" width="300" height="auto">
+			</div>
+			<div class="item6">
+				<div class="paragraph_1">
+					<p class="red-minus"> Tellus Ullamcorper Inceptos</p>
+					<p class="red-minus"> Magna Condimentum</p>
+					<p class="gray-minus" style="padding-left: 33px;"> Mattis Tristique</p>
+					<p class="gray-minus" style="padding-left: 33px;"> Pharetra Pellentesque Dapibus</p>
+					<p class="red-minus"> Aenean Inceptos</p>
+					<p class="red-minus"> Parturient Bibendum</p>
+				</div>
+            </div>
+			<div class="item7">
+            </div>
+			<div class="item8">
+
+            </div>
+		</div>
+</body>
+
+</html>
